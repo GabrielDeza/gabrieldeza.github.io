@@ -14,7 +14,7 @@
 
 - title: "Learning to Fold Real Garments with One Arm: A Case Study in Cloud-Based Robotics Research"
   authors: "Ryan Hoque, Kaushik Shivakumar, Shrey Aeron, **Gabriel Deza**, Aditya Ganapathi, Adrian Wong, Johnny Lee, Andy Zeng, Vincent Vanhoucke, Ken Goldberg"
-  venue: "IROS 2022"
+  venue: "IEEE/RSJ International Conference on Intelligent Robots and Systems, 2022"
   year: 2022
   status: "Conference paper"
   image: /assets/images/papers/learning-to-fold.png
@@ -36,7 +36,7 @@
 
 - title: "Unrolling SGD: Understanding Factors Influencing Machine Unlearning"
   authors: "Anvith Thudi, **Gabriel Deza**, Varun Chandrasekaran, Nicolas Papernot"
-  venue: "7th European Symposium on Security and Privacy (2022), 303-319"
+  venue: "7th European Symposium on Security and Privacy (2022) 303-319"
   year: 2022
   status: "Conference paper"
   image: /assets/images/papers/unrolling-sgd.png
