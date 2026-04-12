@@ -1,34 +1,172 @@
----
-layout: default
-title: Gabriel Deza
----
-{% include site-header.html %}
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Gabriel Deza</title>
+<meta name="description" content="PhD student in Industrial Engineering at Tel Aviv University">
+<meta name="author" content="Gabriel Deza">
+<meta name="keywords" content="Gabriel Deza, academic website">
+<meta name="robots" content="index,follow">
+<link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+<link rel="canonical" href="https://gabrieldeza.github.io/">
+<link rel="stylesheet" href="style.css">
+<script>
+    function unhide(divID) {
+        var item = document.getElementById(divID);
+        if (item) {
+            item.className=(item.className=='hidden')?'unhidden':'hidden';
+        }
+    }
+</script>
+</head>
+<body>
+<header class="wrapper">
+<div style="font-size: 1.7em; font-weight: 450;">Gabriel Deza</div>
+<nav>
+ <a href="mailto:gabrieldeza@tau.mail.ac.il" target="_blank">Email</a>
+ <a href="https://scholar.google.com/scholar?q=Gabriel+Deza" target="_blank">Scholar</a>
+ <a href="https://www.linkedin.com/in/gabrieldeza/" target="_blank">LinkedIn</a>
+ <a href="https://github.com/GabrielDeza" target="_blank">GitHub</a>
+ <a href="/assets/pdf/gabriel-deza-cv.pdf" target="_blank">CV</a>
+ <a href="/teaching/">Teaching</a>
+</nav>
+</header>
 <main>
-  <article class="wrapper">
-    <div class="intro no-headshot">
-      <div class="left"></div>
+<article class="wrapper">
+<div class="intro no-headshot">
+<div class="left"></div>
+<div class="center">
+<p style="font-size: 1.1em; margin-top: 0.1em">Hello! I am a PhD student in Industrial Engineering at Tel Aviv University working with <a href="https://www.eng.tau.ac.il/~talraviv/" target="_blank">Tal Raviv</a> and <a href="https://english.tau.ac.il/profile/tzurm" target="_blank">Michal Tzur</a>. I previously did my MSc at the University of California, Berkeley in Industrial Engineering and Operations Research working with <a href="https://haas.berkeley.edu/faculty/yano-candace/" target="_blank">Candace Yano</a>. During my undergrad in Engineering Science at the University of Toronto, I worked on deep learning and privacy at the <a href="https://cleverhans.io/" target="_blank">CleverHans Lab</a> with <a href="https://www.papernot.fr/" target="_blank">Nicolas Papernot</a>. My current research focuses on optimization problems for transportation, specifically line planning, timetabling and demand routing in highly connected networks. More generally, I am interested in exact optimization methods for problems spanning several stages of the network design problem.</p>
 
-      <div class="center">
-        {{ site.data.profile.intro_html }}
-      </div>
+</div>
+<div class="right">
+<p style="font-size: 1.1em; margin-top: 0.1em">Hello! I am a PhD student in Industrial Engineering at Tel Aviv University working with <a href="https://www.eng.tau.ac.il/~talraviv/" target="_blank">Tal Raviv</a> and <a href="https://english.tau.ac.il/profile/tzurm" target="_blank">Michal Tzur</a>. I previously did my MSc at the University of California, Berkeley in Industrial Engineering and Operations Research working with <a href="https://haas.berkeley.edu/faculty/yano-candace/" target="_blank">Candace Yano</a>. During my undergrad in Engineering Science at the University of Toronto, I worked on deep learning and privacy at the <a href="https://cleverhans.io/" target="_blank">CleverHans Lab</a> with <a href="https://www.papernot.fr/" target="_blank">Nicolas Papernot</a>. My current research focuses on optimization problems for transportation, specifically line planning, timetabling and demand routing in highly connected networks. More generally, I am interested in exact optimization methods for problems spanning several stages of the network design problem.</p>
 
-      <div class="right">
-        {{ site.data.profile.intro_html }}
-      </div>
-    </div>
+</div>
+</div>
+<h2 style="margin: 1.3em 0 .8em 0">Publications</h2>
+<p>Here are my current publications. You can also find the same list in my <a href="/assets/pdf/gabriel-deza-cv.pdf" target="_blank">CV</a>.</p>
+<ul class="collection">
+<li>
+  <div class="thumb">
+    <img src="/assets/images/papers/routing-line-networks.png" alt="Routing in Line Networks with Handling Times">
+  </div>
+  <div class="text">
+    <h3>Routing in Line Networks with Handling Times</h3>
+    <p class="authors"><strong>Gabriel Deza</strong>, Tal Raviv, Michal Tzur</p>
+    <p class="venues">Submitted to Transportation Science, 2026</p>
+    <p class="buttons"><a href="javascript:unhide('routing-in-line-networks-with-handling-times-citation');">Citation</a></p>
+    <div id="routing-in-line-networks-with-handling-times-citation" class="hidden"><pre>@article{deza2026routing,
+  title={Routing in Line Networks with Handling Times},
+  author={Deza, Gabriel and Raviv, Tal and Tzur, Michal},
+  journal={Submitted to Transportation Science},
+  year={2026}
+}
+</pre></div>
+  </div>
+</li>
 
-    <h2 style="margin: 1.3em 0 .8em 0">Publications</h2>
-    <p>
-      Here are my current publications. You can also find the same list in my <a href="{{ site.data.profile.cv_url | relative_url }}" target="_blank">CV</a>.
-    </p>
+<li>
+  <div class="thumb">
+    <img src="/assets/images/papers/food-delivery-fees.png" alt="Optimizing Service Fees and Driver Payments for Restaurant Food Delivery">
+  </div>
+  <div class="text">
+    <h3>Optimizing Service Fees and Driver Payments for Restaurant Food Delivery</h3>
+    <p class="authors"><strong>Gabriel Deza</strong>, Candace Yano</p>
+    <p class="venues">Under review at MSOM, 2025</p>
+    <p class="buttons"><a href="javascript:unhide('optimizing-service-fees-and-driver-payments-for-restaurant-food-delivery-citation');">Citation</a></p>
+    <div id="optimizing-service-fees-and-driver-payments-for-restaurant-food-delivery-citation" class="hidden"><pre>@article{deza2025servicefees,
+  title={Optimizing Service Fees and Driver Payments for Restaurant Food Delivery},
+  author={Deza, Gabriel and Yano, Candace},
+  journal={Under review at Manufacturing \&amp; Service Operations Management},
+  year={2025}
+}
+</pre></div>
+  </div>
+</li>
 
-    <ul class="collection">
-      {% for publication in site.data.publications %}
-        {% include publication-card.html publication=publication %}
-      {% endfor %}
-    </ul>
-  </article>
+<li>
+  <div class="thumb">
+    <img src="/assets/images/papers/learning-to-fold.png" alt="Learning to Fold Real Garments with One Arm: A Case Study in Cloud-Based Robotics Research">
+  </div>
+  <div class="text">
+    <a href="https://arxiv.org/abs/2204.10297" target="_blank"><h3>Learning to Fold Real Garments with One Arm: A Case Study in Cloud-Based Robotics Research</h3></a>
+    <p class="authors">Ryan Hoque, Kaushik Shivakumar, Shrey Aeron, <strong>Gabriel Deza</strong>, Aditya Ganapathi, Adrian Wong, Johnny Lee, Andy Zeng, Vincent Vanhoucke, Ken Goldberg</p>
+    <p class="venues">Accepted to IROS 2022</p>
+    <p class="buttons"><a href="https://arxiv.org/abs/2204.10297" target="_blank">Paper</a> | <a href="https://ieeexplore.ieee.org/document/9981253" target="_blank">IEEE</a> | <a href="https://sites.google.com/berkeley.edu/cloudfolding" target="_blank">Project</a> | <a href="javascript:unhide('learning-to-fold-real-garments-with-one-arm-a-case-study-in-cloud-based-robotics-research-citation');">Citation</a></p>
+    <div id="learning-to-fold-real-garments-with-one-arm-a-case-study-in-cloud-based-robotics-research-citation" class="hidden"><pre>@inproceedings{hoque2022fold,
+  title={Learning to Fold Real Garments with One Arm: A Case Study in Cloud-Based Robotics Research},
+  author={Hoque, Ryan and Shivakumar, Kaushik and Aeron, Shrey and Deza, Gabriel and Ganapathi, Aditya and Wong, Adrian and Lee, Johnny and Zeng, Andy and Vanhoucke, Vincent and Goldberg, Ken},
+  booktitle={IEEE/RSJ International Conference on Intelligent Robots and Systems},
+  year={2022}
+}
+</pre></div>
+  </div>
+</li>
+
+<li>
+  <div class="thumb">
+    <img src="/assets/images/papers/unrolling-sgd.png" alt="Unrolling SGD: Understanding Factors Influencing Machine Unlearning">
+  </div>
+  <div class="text">
+    <a href="https://arxiv.org/abs/2109.13398" target="_blank"><h3>Unrolling SGD: Understanding Factors Influencing Machine Unlearning</h3></a>
+    <p class="authors">Anvith Thudi*, <strong>Gabriel Deza</strong>*, Varun Chandrasekaran, Nicolas Papernot</p>
+    <p class="venues">Accepted to EURO S&amp;P 2022</p>
+    <p class="buttons"><a href="https://arxiv.org/abs/2109.13398" target="_blank">Paper</a> | <a href="javascript:unhide('unrolling-sgd-understanding-factors-influencing-machine-unlearning-citation');">Citation</a></p>
+    <div id="unrolling-sgd-understanding-factors-influencing-machine-unlearning-citation" class="hidden"><pre>@inproceedings{thudi2022unrolling,
+  title={Unrolling SGD: Understanding Factors Influencing Machine Unlearning},
+  author={Thudi, Anvith and Deza, Gabriel and Chandrasekaran, Varun and Papernot, Nicolas},
+  booktitle={IEEE European Symposium on Security and Privacy},
+  year={2022}
+}
+</pre></div>
+  </div>
+</li>
+
+<li>
+  <div class="thumb">
+    <img src="/assets/images/papers/financial-trading.png" alt="Interpretability in Safety-Critical Financial Trading Systems">
+  </div>
+  <div class="text">
+    <a href="https://arxiv.org/abs/2109.15112" target="_blank"><h3>Interpretability in Safety-Critical Financial Trading Systems</h3></a>
+    <p class="authors"><strong>Gabriel Deza</strong>*, Adelin Travers, Colin Rowat, Nicolas Papernot</p>
+    <p class="venues">arXiv preprint</p>
+    <p class="buttons"><a href="https://arxiv.org/abs/2109.15112" target="_blank">Paper</a> | <a href="javascript:unhide('interpretability-in-safety-critical-financial-trading-systems-citation');">Citation</a></p>
+    <div id="interpretability-in-safety-critical-financial-trading-systems-citation" class="hidden"><pre>@article{deza2021interpretability,
+  title={Interpretability in Safety-Critical Financial Trading Systems},
+  author={Deza, Gabriel and Travers, Adelin and Rowat, Colin and Papernot, Nicolas},
+  journal={arXiv preprint arXiv:2109.15112},
+  year={2021}
+}
+</pre></div>
+  </div>
+</li>
+
+<li>
+  <div class="thumb">
+    <img src="/assets/images/papers/degree-sequences.png" alt="Optimization over Degree Sequences of Graphs">
+  </div>
+  <div class="text">
+    <a href="https://arxiv.org/abs/1908.09278" target="_blank"><h3>Optimization over Degree Sequences of Graphs</h3></a>
+    <p class="authors"><strong>Gabriel Deza</strong>, Shmuel Onn</p>
+    <p class="venues">Discrete Applied Mathematics 296 (2021) 2-8</p>
+    <p class="buttons"><a href="https://arxiv.org/abs/1908.09278" target="_blank">Paper</a> | <a href="https://www.sciencedirect.com/science/article/pii/S0166218X19305591" target="_blank">Journal</a> | <a href="javascript:unhide('optimization-over-degree-sequences-of-graphs-citation');">Citation</a></p>
+    <div id="optimization-over-degree-sequences-of-graphs-citation" class="hidden"><pre>@article{deza2021optimization,
+  title={Optimization over Degree Sequences of Graphs},
+  author={Deza, Gabriel and Onn, Shmuel},
+  journal={Discrete Applied Mathematics},
+  volume={296},
+  pages={2--8},
+  year={2021}
+}
+</pre></div>
+  </div>
+</li>
+
+</ul>
+</article>
 </main>
-
 <footer class="wrapper"></footer>
+</body>
+</html>
