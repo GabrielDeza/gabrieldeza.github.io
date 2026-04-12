@@ -1,0 +1,12 @@
+<header class="wrapper">
+  <div style="font-size: 1.7em; font-weight: 450;">{{ site.data.profile.name }}</div>
+
+  <nav>
+    <a href="mailto:{{ site.data.profile.email }}" target="_blank">Email</a>
+    {% for item in site.data.profile.links %}
+      {% unless item.label == "Email" %}
+        <a href="{{ item.url }}"{% if item.new_tab %} target="_blank"{% endif %}>{{ item.label }}</a>
+      {% endunless %}
+    {% endfor %}
+  </nav>
+</header>

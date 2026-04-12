@@ -1,0 +1,136 @@
+\documentclass[10pt]{article}
+
+\usepackage[margin=0.9in]{geometry}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{xcolor}
+\usepackage[colorlinks=true,urlcolor=blue!50!black,linkcolor=blue!50!black]{hyperref}
+\usepackage{enumitem}
+\usepackage{tabularx}
+\usepackage{array}
+
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.25em}
+\setlist[itemize]{leftmargin=1.3em,itemsep=0.12em,topsep=0.15em,parsep=0pt,partopsep=0pt}
+
+\definecolor{SectionRule}{HTML}{D9D9D9}
+
+\newcommand{\cvsection}[1]{%
+  \vspace{0.7em}%
+  {\large\bfseries #1}\par
+  \vspace{0.15em}%
+  {\color{SectionRule}\hrule height 0.8pt}%
+  \vspace{0.35em}%
+}
+
+\newcommand{\cventry}[4]{%
+  \begin{tabularx}{\textwidth}{@{}X>{\raggedleft\arraybackslash}p{0.28\textwidth}@{}}
+    \textbf{#1} & #2 \\
+    \textit{#3} & \textit{#4} \\
+  \end{tabularx}
+}
+
+\begin{document}
+
+{\LARGE \textbf{Gabriel Deza}}\par
+{\normalsize PhD Student, Industrial Engineering, Tel Aviv University}\par
+{\small Tel Aviv, Israel \enspace | \enspace
+\href{mailto:gabrieldeza@tau.mail.ac.il}{gabrieldeza@tau.mail.ac.il} \enspace | \enspace
+\href{https://www.linkedin.com/in/gabrieldeza/}{LinkedIn} \enspace | \enspace
+\href{https://github.com/GabrielDeza}{GitHub} \enspace | \enspace
+\href{https://scholar.google.com/scholar?q=Gabriel+Deza}{Google Scholar}}\par
+
+\cvsection{Summary}
+PhD student in Industrial Engineering at Tel Aviv University working with Tal Raviv and Michal Tzur. Previously completed an MSc in Industrial Engineering and Operations Research at the University of California, Berkeley with Candace Yano and a BASc in Engineering Science at the University of Toronto, including research with Nicolas Papernot and the CleverHans Lab. Current research focuses on optimization problems for transportation systems, especially line planning, timetabling, and demand routing in highly connected networks, as well as exact optimization methods spanning multiple stages of the network design problem.
+
+\cvsection{Education}
+\cventry{PhD in Industrial Engineering}{Jan 2023 -- Present}{Tel Aviv University}{Tel Aviv, Israel}
+\begin{itemize}
+  \item Advised by Tal Raviv and Michal Tzur.
+  \item Research focus: transportation optimization, line planning, timetabling, and demand routing in highly connected networks.
+\end{itemize}
+
+\cventry{MSc in Industrial Engineering and Operations Research}{Aug 2021 -- Aug 2022}{University of California, Berkeley}{Berkeley, CA}
+
+\cventry{BASc in Engineering Science, Major in Machine Learning}{Sept 2017 -- May 2021}{University of Toronto}{Toronto, Canada}
+
+\cvsection{Research Experience}
+\cventry{Researcher}{May 2022 -- Sept 2022}{Industrial Engineering and Operations Research, UC Berkeley}{Berkeley, CA}
+\begin{itemize}
+  \item Worked with Candace Yano on food delivery pricing models and marketplace design.
+  \item Developed revenue management models for customer, restaurant, and driver interactions to study profit-maximizing service fees and payments.
+\end{itemize}
+
+\cventry{Researcher}{May 2021 -- May 2022}{AutoLab with Google Robotics, UC Berkeley}{Berkeley, CA}
+\begin{itemize}
+  \item Worked with Ken Goldberg and Google Robotics on autonomous garment folding.
+  \item Trained and evaluated policies in SoftGym for simulated and physical cloth-manipulation tasks.
+\end{itemize}
+
+\cventry{Researcher}{May 2020 -- May 2021}{CleverHans Lab, University of Toronto}{Toronto, Canada}
+\begin{itemize}
+  \item Worked with Nicolas Papernot on machine unlearning and the robustness of financial trading systems.
+  \item Developed machine learning formulations that facilitate machine unlearning requests effectively and tractably.
+\end{itemize}
+
+\cventry{Researcher}{May 2019 -- Aug 2019}{Technion -- Israel Institute of Technology}{Haifa, Israel}
+\begin{itemize}
+  \item Worked with Shmuel Onn on graph optimization algorithms.
+  \item Developed dynamic programming formulations for optimization over subgraph degree objectives.
+\end{itemize}
+
+\cventry{Researcher}{May 2018 -- Aug 2018}{Universit\'e Paris-Saclay}{Paris, France}
+\begin{itemize}
+  \item Worked with Yannis Manoussakis on topological graph algorithms.
+  \item Implemented graph algorithms and LP/IP models in Python, Gurobi, and CPLEX.
+\end{itemize}
+
+\cvsection{Publications}
+\begin{itemize}[leftmargin=0pt,label={},itemsep=0.45em]
+  \item \textbf{Routing in Line Networks with Handling Times}. \textbf{Gabriel Deza}, Tal Raviv, Michal Tzur. Submitted to \textit{Transportation Science}, 2026.
+  \item \textbf{Optimizing Service Fees and Driver Payments for Restaurant Food Delivery}. \textbf{Gabriel Deza}, Candace Yano. Under review at \textit{Manufacturing \& Service Operations Management (MSOM)}, 2025.
+  \item \textbf{Learning to Fold Real Garments with One Arm: A Case Study in Cloud-Based Robotics Research}. Ryan Hoque, Kaushik Shivakumar, Shrey Aeron, \textbf{Gabriel Deza}, Aditya Ganapathi, Adrian Wong, Johnny Lee, Andy Zeng, Vincent Vanhoucke, Ken Goldberg. Accepted to \textit{IROS}, 2022.
+  \item \textbf{Unrolling SGD: Understanding Factors Influencing Machine Unlearning}. Anvith Thudi*, \textbf{Gabriel Deza}*, Varun Chandrasekaran, Nicolas Papernot. Accepted to \textit{EURO S\&P}, 2022.
+  \item \textbf{Interpretability in Safety-Critical Financial Trading Systems}. \textbf{Gabriel Deza}*, Adelin Travers, Colin Rowat, Nicolas Papernot. \textit{arXiv} preprint, 2021.
+  \item \textbf{Optimization over Degree Sequences of Graphs}. \textbf{Gabriel Deza}, Shmuel Onn. \textit{Discrete Applied Mathematics} 296 (2021), 2--8.
+\end{itemize}
+\vspace{-0.2em}
+{\small * denotes primary or co-primary authorship.}\par
+
+\cvsection{Teaching}
+\begin{itemize}
+  \item Fall 2023: 0512-1820 C Programming
+  \item Winter 2024: 0571-4133 Geographic Network Systems
+  \item Fall 2025: 0571-4182 Introduction to Deep Learning
+  \item Winter 2026: 0571-4184 Advanced Topics in Deep Learning
+\end{itemize}
+
+\cvsection{Skills}
+\begin{itemize}
+  \item Programming: Python, C, Matlab, Julia, SQL
+  \item ML/OR tools: PyTorch, TensorFlow, Gurobi, CPLEX
+\end{itemize}
+
+\cvsection{Awards}
+\begin{itemize}
+  \item ISTRC Conference Grant for TSL Workshop 2024
+  \item ISTRC Scholarship, 2023--2024
+  \item Shlomo Smeltzer Scholarship, 2023 and 2024
+  \item UC Berkeley IEOR Fellowship, 2021--2022
+  \item UC Berkeley Fellowship Nominee, 2021
+  \item University of Toronto ECE Studentship Award, 2020
+  \item Exceptional Opportunity Award, 2019
+  \item Exceptional Opportunity Award, 2018
+  \item First Place, University of Toronto UTRA Hackathon, 2018
+  \item Faculty of Applied Science and Engineering Admission Scholarship, 2017
+\end{itemize}
+
+\cvsection{Languages}
+\begin{itemize}
+  \item English and French (bilingual)
+  \item Hebrew (beginner)
+\end{itemize}
+
+\end{document}

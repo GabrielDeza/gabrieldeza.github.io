@@ -2,77 +2,33 @@
 layout: default
 title: Gabriel Deza
 ---
-<header class="site-header">
-  <div class="site-shell">
-    <div class="masthead">
-      <a class="site-mark" href="#top">{{ site.data.profile.name }}</a>
-      <nav class="site-nav" aria-label="Primary">
-        <a href="#about">About</a>
-        <a href="#research">Research</a>
-        <a href="#publications">Publications</a>
-        <a href="{{ site.data.profile.cv_url | relative_url }}">CV</a>
-      </nav>
-    </div>
-  </div>
-</header>
+{% include site-header.html %}
 
-<main id="top" class="site-shell">
-  <section id="about" class="intro section">
-    <p class="eyebrow">{{ site.data.profile.role }}</p>
-    <h1>{{ site.data.profile.name }}</h1>
-    <p class="lede">
-      {{ site.data.profile.department }} at {{ site.data.profile.institution }}
-      <span class="dot-sep" aria-hidden="true">&middot;</span>
-      {{ site.data.profile.location }}
+<main>
+  <article class="wrapper">
+    <div class="intro no-headshot">
+      <div class="left"></div>
+
+      <div class="center">
+        {{ site.data.profile.intro_html }}
+      </div>
+
+      <div class="right">
+        {{ site.data.profile.intro_html }}
+      </div>
+    </div>
+
+    <h2 style="margin: 1.3em 0 .8em 0">Publications</h2>
+    <p>
+      Here are my current publications. You can also find the same list in my <a href="{{ site.data.profile.cv_url | relative_url }}" target="_blank">CV</a>.
     </p>
 
-    <ul class="link-list" aria-label="Profile links">
-      {% for item in site.data.profile.links %}
-      <li><a href="{{ item.url }}">{{ item.label }}</a></li>
-      {% endfor %}
-    </ul>
-
-    <div class="intro-copy">
-      {% for paragraph in site.data.profile.bio %}
-      <p>{{ paragraph }}</p>
-      {% endfor %}
-    </div>
-  </section>
-
-  <section id="research" class="section">
-    <div class="section-heading">
-      <p class="eyebrow">Research</p>
-      <h2>Interests</h2>
-    </div>
-    <p class="section-copy">
-      I am interested in problems at the intersection of learning, optimization, and reliable decision-making.
-    </p>
-    <ul class="interest-list">
-      {% for interest in site.data.profile.interests %}
-      <li>{{ interest }}</li>
-      {% endfor %}
-    </ul>
-  </section>
-
-  <section id="publications" class="section">
-    <div class="section-heading">
-      <p class="eyebrow">Publications</p>
-      <h2>Selected and Full List to Date</h2>
-    </div>
-    <div class="publication-list">
+    <ul class="collection">
       {% for publication in site.data.publications %}
-      {% include publication-card.html publication=publication %}
+        {% include publication-card.html publication=publication %}
       {% endfor %}
-    </div>
-  </section>
+    </ul>
+  </article>
 </main>
 
-<footer class="site-footer">
-  <div class="site-shell footer-inner">
-    <p>{{ site.data.profile.name }}<br>{{ site.data.profile.department }}, {{ site.data.profile.institution }}</p>
-    <p>
-      <a href="mailto:{{ site.data.profile.email }}">{{ site.data.profile.email }}</a><br>
-      <a href="{{ site.data.profile.cv_url | relative_url }}">Download CV</a>
-    </p>
-  </div>
-</footer>
+<footer class="wrapper"></footer>
