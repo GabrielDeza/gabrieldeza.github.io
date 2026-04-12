@@ -1,0 +1,26 @@
+name: Gabriel Deza
+role: PhD Student
+department: Industrial Engineering
+institution: Tel Aviv University
+location: Tel Aviv, Israel
+email: gabrieldeza@tau.mail.ac.il
+cv_url: /assets/pdf/gabriel-deza-cv.pdf
+bio:
+  - I am a PhD student in Industrial Engineering at Tel Aviv University, advised by Tal Raviv and Michael Tzur.
+  - My interests sit at the intersection of machine learning, discrete optimization, and trustworthy AI, with recent work spanning machine unlearning, graph optimization, and robotics.
+  - Before starting my PhD, I completed an MSc in Industrial Engineering and Operations Research at UC Berkeley and a BASc in Engineering Science at the University of Toronto.
+interests:
+  - Machine learning
+  - Discrete optimization
+  - Trustworthy AI
+  - Machine unlearning
+  - Graph algorithms
+links:
+  - label: Email
+    url: mailto:gabrieldeza@tau.mail.ac.il
+  - label: GitHub
+    url: https://github.com/GabrielDeza
+  - label: LinkedIn
+    url: https://www.linkedin.com/in/gabrieldeza/
+  - label: CV
+    url: /assets/pdf/gabriel-deza-cv.pdf

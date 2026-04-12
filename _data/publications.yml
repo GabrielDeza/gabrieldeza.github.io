@@ -1,0 +1,49 @@
+- title: "Learning to Fold Real Garments with One Arm: A Case Study in Cloud-Based Robotics Research"
+  authors: "Ryan Hoque, Kaushik Shivakumar, Shrey Aeron, **Gabriel Deza**, Aditya Ganapathi, Adrian Wong, Johnny Lee, Andy Zeng, Vincent Vanhoucke, Ken Goldberg"
+  venue: "Accepted to IROS 2022"
+  year: 2022
+  status: "Conference paper"
+  image: /assets/images/papers/learning-to-fold.png
+  summary: "A cloud robotics study of one-arm garment folding on physical hardware."
+  links:
+    - label: Paper
+      url: https://arxiv.org/abs/2204.10297
+    - label: IEEE
+      url: https://ieeexplore.ieee.org/document/9981253
+    - label: Project
+      url: https://sites.google.com/berkeley.edu/cloudfolding
+
+- title: "Unrolling SGD: Understanding Factors Influencing Machine Unlearning"
+  authors: "Anvith Thudi, **Gabriel Deza**, Varun Chandrasekaran, Nicolas Papernot"
+  venue: "Accepted to EURO S&P 2022"
+  year: 2022
+  status: "Conference paper"
+  image: /assets/images/papers/unrolling-sgd.png
+  summary: "A study of verification error and training dynamics for approximate machine unlearning."
+  links:
+    - label: Paper
+      url: https://arxiv.org/abs/2109.13398
+
+- title: "Interpretability in Safety-Critical Financial Trading Systems"
+  authors: "**Gabriel Deza**, Adelin Travers, Colin Rowat, Nicolas Papernot"
+  venue: "Senior thesis and arXiv preprint"
+  year: 2021
+  status: "Preprint"
+  image: /assets/images/papers/financial-trading.png
+  summary: "An end-to-end study of stress-testing financial trading systems built on machine learning forecasts."
+  links:
+    - label: Paper
+      url: https://arxiv.org/abs/2109.15112
+
+- title: "Optimization over Degree Sequences of Graphs"
+  authors: "**Gabriel Deza**, Shmuel Onn"
+  venue: "Discrete Applied Mathematics 296 (2021) 2-8"
+  year: 2021
+  status: "Journal article"
+  image: /assets/images/papers/degree-sequences.png
+  summary: "Polynomial-time results and hardness boundaries for optimization over graph degree sequences."
+  links:
+    - label: Paper
+      url: https://arxiv.org/abs/1908.09278
+    - label: Journal
+      url: https://www.sciencedirect.com/science/article/pii/S0166218X19305591
