@@ -495,8 +495,8 @@ article>h1:first-child {
 }
 
 .intro .left {
-    flex: 0 0 9.5rem;
-    max-width: 9.5rem
+    flex: 0 0 11rem;
+    max-width: 11rem
 }
 
 .intro .left img.face {
@@ -533,8 +533,8 @@ article>h1:first-child {
     }
 
     .intro .left {
-        width: 8rem;
-        max-width: 8rem
+        width: 9rem;
+        max-width: 9rem
     }
 
     .intro .right {
