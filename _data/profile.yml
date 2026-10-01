@@ -3,7 +3,7 @@ role: PhD Student
 department: Industrial Engineering
 institution: Tel Aviv University
 location: Tel Aviv, Israel
-email: gabrieldeza@tau.mail.ac.il
+email: gabrieldeza@mail.tau.ac.il
 cv_url: /assets/pdf/gabriel-deza-cv.pdf
 intro_html: |
   <p style="font-size: 1.1em; margin-top: 0.1em">Hello! I am a PhD student in Industrial Engineering at Tel Aviv University working with <a href="https://www.eng.tau.ac.il/~talraviv/" target="_blank">Tal Raviv</a> and <a href="https://english.tau.ac.il/profile/tzurm" target="_blank">Michal Tzur</a>. I previously did my MSc at the University of California, Berkeley in Industrial Engineering and Operations Research working with <a href="https://haas.berkeley.edu/faculty/yano-candace/" target="_blank">Candace Yano</a>. During my undergrad in Engineering Science at the University of Toronto, I worked on deep learning and privacy at the <a href="https://cleverhans.io/" target="_blank">CleverHans Lab</a> with <a href="https://www.papernot.fr/" target="_blank">Nicolas Papernot</a>. My current research focuses on optimization problems for transportation, specifically line planning, timetabling and demand routing in highly connected networks. More generally, I am interested in exact optimization methods for problems spanning several stages of the network design problem.</p>
@@ -20,10 +20,10 @@ interests:
   - Network design
 links:
   - label: Email
-    url: mailto:gabrieldeza@tau.mail.ac.il
+    url: mailto:gabrieldeza@mail.tau.ac.il
     new_tab: true
   - label: Scholar
-    url: https://scholar.google.com/scholar?q=Gabriel+Deza
+    url: https://scholar.google.com/citations?user=o7zbCEsAAAAJ
     new_tab: true
   - label: LinkedIn
     url: https://www.linkedin.com/in/gabrieldeza/
