@@ -2,7 +2,7 @@
   <div style="font-size: 1.7em; font-weight: 450;">{{ site.data.profile.name }}</div>
 
   <nav>
-    <a href="mailto:{{ site.data.profile.email }}" target="_blank">Email</a>
+    <a href="{{ '/#email' | relative_url }}">Email</a>
     {% for item in site.data.profile.links %}
       {% unless item.label == "Email" %}
         <a href="{{ item.url }}"{% if item.new_tab %} target="_blank"{% endif %}>{{ item.label }}</a>

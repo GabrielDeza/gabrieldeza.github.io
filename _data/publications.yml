@@ -4,6 +4,9 @@
   year: 2026
   status: "Accepted"
   image: /assets/images/papers/routing-line-networks.png
+  links:
+    - label: arXiv
+      url: https://arxiv.org/abs/2610.01666
 
 - title: "Optimizing Service Fees and Driver Payments for Restaurant Food Delivery"
   authors: "**Gabriel Deza**, Candace Yano"
